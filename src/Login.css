@@ -1,0 +1,60 @@
+div.background-login
+{
+    height:100%;
+    width:100%;
+    /* background-image:url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(1, 14, 9); */
+}
+div.loginbox
+{
+    background-color: rgba(79, 189, 226, 0.418);
+    text-align:center;
+    margin: auto;
+    position:absolute;
+    top:0%;
+    bottom:0%;
+    left:0%;
+    right:0%;
+    height:500px;
+    width:400px;
+
+}
+#background-image
+{
+    height:100%;
+    width:100%;
+}
+#avtar
+{
+    height:20%;
+    border-radius: 50%;
+}
+#username
+{
+    height:8%;
+    width:80%;
+    border-radius: 10px;
+    margin: auto;
+}
+#password {
+    height: 8%;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+}
+button
+{
+    height:10%;
+    width: 20%;
+    text-align: center;
+    border-radius: 15px;
+}
+button:hover
+{
+    background-color:greenyellow;
+}
+a{
+    text-decoration: none;
+}

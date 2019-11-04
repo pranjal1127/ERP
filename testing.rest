@@ -1,0 +1,13 @@
+POST http://localhost:4000/student
+Content-type:application/json
+
+{
+    "Id":"2018kucp1127", 
+    "password" : "1127"
+}
+
+###
+
+GET http://localhost:4000/2018KUCP1131 
+
+ 

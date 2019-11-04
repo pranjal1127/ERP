@@ -1,0 +1,30 @@
+.nav-top{
+    background-color:rgb(64, 61, 233);
+    overflow: hidden;
+    margin: 0px;
+    z-index: 1;
+    position: sticky;
+    top:0px;
+    width: 100%;
+  }
+  .nav-title{
+    font-size: 1.5em;
+    color:white;
+    display:inline-block;
+    padding: 10px 20px;
+    
+    }
+.link{
+    display: inline-block;
+    padding: 15px 20px;
+    margin: auto;
+    float: right;
+    
+    
+    vertical-align: center;
+    color: beige;
+    
+}
+.link:hover{
+    color: rgb(126, 139, 146);
+}
