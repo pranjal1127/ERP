@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/erp/static/css/main.6a76abca.chunk.css",
+    "main.js": "/erp/static/js/main.49ba80ac.chunk.js",
+    "main.js.map": "/erp/static/js/main.49ba80ac.chunk.js.map",
+    "runtime-main.js": "/erp/static/js/runtime-main.64717216.js",
+    "runtime-main.js.map": "/erp/static/js/runtime-main.64717216.js.map",
+    "static/js/2.0c5d961b.chunk.js": "/erp/static/js/2.0c5d961b.chunk.js",
+    "static/js/2.0c5d961b.chunk.js.map": "/erp/static/js/2.0c5d961b.chunk.js.map",
+    "index.html": "/erp/index.html",
+    "precache-manifest.c8228cbf238a7bcb2be3af7d5c51e69c.js": "/erp/precache-manifest.c8228cbf238a7bcb2be3af7d5c51e69c.js",
+    "service-worker.js": "/erp/service-worker.js",
+    "static/css/main.6a76abca.chunk.css.map": "/erp/static/css/main.6a76abca.chunk.css.map",
+    "static/media/style.css": "/erp/static/media/back.08358d9a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64717216.js",
+    "static/js/2.0c5d961b.chunk.js",
+    "static/css/main.6a76abca.chunk.css",
+    "static/js/main.49ba80ac.chunk.js"
+  ]
+}
