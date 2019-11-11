@@ -1,13 +1,211 @@
-.profile{
+/* ..........................index.js.......................................... */
+body {
+    margin: 0;
+    overflow-x:hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+
+
+/* .........................App ................................................*/
+.App {
+    text-align: center;
+  }
+  
+  
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #09d3ac;
+  }
+  /*................................profile...............................  */
+.profile,.attendance{
     background-color: rgb(255, 255, 255);
+    overflow: hidden;
     position: absolute;
     top: 10%;   
-    left: 282px;
+    left: 280px;
+    right: 0%;    
+    margin: 10px; width: 100%;
+}
+.table{
+    /* width: 100%; */
+}
+
+/* ................................Login.......................................... */
+.model-container{
+    background: url('./back.jpg');
+    position: fixed;    
+    width: 100%;
+    height: 100%; 
+    }
+.card{    
+    max-width: 400px;
+    max-height: 300px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
     right: 0%;
+    bottom: 0%;    
+    margin: auto;
+    border-radius: 0%;
+    }
+.card-text,.card-title{
+    text-align: center;
+}
+.btn{
+    float: right;
+}
+
+.chart{
+    width: 30vw;
+    height: 30vh;
+}
+/* ---------------------------------Fees------------------------------------------ */
+.table{
+    width: fit-content;
+    margin: 1%;
+}
+.table td,th{
+    text-align: center;
+    width: fit-content;
+}
+
+/* ................................Header......................................... */
+.nav-top{
+    background-color:rgb(64, 61, 233);
+    overflow: hidden;
+    margin: 0px;
+    z-index: 1;
+    position: sticky;
+    top:10px;
+    width: 100%;
+  }
+  .nav-title{
+    font-size: 1.5em;
+    color:white;
+    display:inline-block;
+    padding: 10px 20px;
+    
+    }
+.link{
+    display: inline-block;
+    padding: 15px 20px;
+    margin: auto;
+    float: right;
+    
+    
+    vertical-align: center;
+    color: beige;
+    
+}
+.link:hover{
+    color: rgb(126, 139, 146);
+}
+.panel
+{
+    position: fixed;
+    top:55px;
+    right:0px;
+    width:300px;
+    background-color:rgba(255, 255, 255, 0.486);
+    box-shadow: 0 2px 4px rgba(00, 00, 00, 0.9);
+}
+#lo
+{
+    position: fixed;
+    right:200px;
+}
+.btn
+{
+    margin:10px;
+}
+/* .........................Sidebar..................................... */
+
+
+
+body{
+    background-color:rgb(247, 247, 247);
+}
+
+.box{
+    background-color: rgba(51,51,51,1);
+    position: fixed;
+    overflow: auto;
+    color: white;   
+    width: 240px;
+    height: 100%;
+    
+    
+}
+.user{
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    
+}
+.card-img{
+    float: left;
+    border-radius: 50%;
+    background: white;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 20px;
+   
+}
+.topic{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0 10%;
+
+}
+.topic li{
+   
+    display: block;
+    font-size: 14px;
+    padding: 3% 0;
+    margin: 8px 0 8px 0;
+    border-bottom: 1px solid white;
+}
+.topic link  :hover{
+    color: rgb(126, 116, 116);
     
 }
 
-.table{
-    width: 100%;
+.about{
+    color: lightgray;
+    position: fixed;
+    bottom: 0%;
+    margin: 40px;;
+    
+}
+/* .........................Tattendance....................................... */
+.inputId{
+    width: 10%;
+}
+.inputAtt{
+    width: 6%;
 }
 
+
+/* ........................................................................... */

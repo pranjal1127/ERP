@@ -7,7 +7,66 @@ Content-type:application/json
 }
 
 ###
+POST http://localhost:4000/teacher
+Content-type:application/json
 
-GET http://localhost:4000/2018KUCP1131 
+{
+    "Id":"20181001", 
+    "password" : "1001"
+}
 
- 
+###
+GET http://localhost:4000/2018kucp1127
+
+###
+
+GET http://localhost:4000/teacher/20181001
+
+###
+
+GET http://localhost:4000/Attendance/2018KUCP1127
+Content-type:application/json
+
+{   
+    "Id" : "2018KUCP1127",
+   "sub" : "apython"
+} 
+
+###
+GET http://localhost:4000/Attendance/aeco/2018kucp1127
+###
+
+GET  http://localhost:4000/Fees/2018kucp1127
+
+###
+http://localhost:4000/teacher/performance/20181001
+
+###
+GET  http://localhost:4000/performance/2018KUCP1127
+
+###
+GET  http://localhost:4000/performance/max/2018KUCP1127
+
+###
+POST http://localhost:4000/teacher/performance/update/20181001
+Content-type:application/json
+
+{
+    "ID":"2018kucp1127", 
+    "marks" : "27"
+}
+
+
+###
+POST http://localhost:4000/teacher/attendance/new/20181001
+Content-type:application/json
+
+{
+  "id": "2018KUCP1126",
+  "July": "20",
+  "August": "25",
+  "September": "30",
+  "October": "22", 
+  "November": "28",
+  "December": "25"
+}

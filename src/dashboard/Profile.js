@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-import Logo from './logo.jpg'
+//import axios from 'axios';
+
 
 import '../style.css';
 
-let axiosConfig = {
-    headers: {
-        'Content-Type': 'application/json;charset=UTF-8',
-        "Access-Control-Allow-Origin": "*",
-    }
-  };
+
 
  class Profile extends Component {
     constructor(props) {
@@ -25,74 +20,64 @@ let axiosConfig = {
         
     }
     
-    componentDidMount(){
-        
-        axios.get(`http://localhost:4000/:Id`,axiosConfig)
-        .then(res => { 
-            if(res.data){
-                console.log(res)
-            }
-            else console.log('error')
-            
-        }).catch(function(error){
-      
-            console.log(error);
-          })
-    }
+   
     render() {
+       const {ID,Name,DOB,Gender,Category,Admission,Branch,Course,Section,Contact_No} = this.props.value
+       const IMG = 'https://joeschmoe.io/api/v1/' + Name;
        
         return (
             <div className = " profile ">
+               
                 <div className = "m-4">
-                   <button className = " btn-primary">Profile</button>
+                  <h1>Profile</h1>
                    <i className="fas fa-pencil-alt float-right" style={{color:'green',cursor : 'pointer'}}></i>   </div>            
                         <table className="table m-4">
                             
                                 <tbody>
                                     <tr>
                                         <th className="row">Name : </th>
-                                        <td> Pranjal Agrawal</td>
-                                        <td rowSpan = '3' > <img src = {Logo} alt = "Profile" width = "100px" /></td>
+                                        <td>{Name}</td>
+                                        <td rowSpan = '3' > <img src = {IMG} alt = "Profile" width = "100px" /></td>
                                     </tr>
                                     <tr>
                                         <th className="row"> ID : </th>
-                                        <td>{this.props.Id} </td>
+                                        <td>{ID} </td>
                                         
                                     </tr>
                                     <tr>
                                         <th className="row"> Contact no : </th>
-                                        <td> 7891217760</td>
+                                        <td>{Contact_No}</td>
                                         
                                     </tr>
                                     <tr>
                                         <th className="row"> DOB : </th>
-                                        <td> 21-02-2000</td>
+                                        <td> {DOB}</td>
                                         
                                     </tr>
                                     <tr>
                                         <th className="row"> Gender : </th>
-                                        <td> MALE</td>
+                                        <td> {Gender}</td>
                                         
                                     </tr>
                                     <tr>
                                         <th className="row"> Category : </th>
-                                        <td> GENERAL</td>                                        
+                                        <td>{Category}</td>                                        
                                     </tr>
                                     <tr>
-                                        <th className="row"> Addmission : </th>
-                                        <td> Jossa</td>                                        
+                                        <th className="row"> Admission : </th>
+                                        <td>{Admission}</td>                                        
                                     </tr>
                                     <tr>
                                         <th className="row"> Branch : </th>
-                                        <td> Computer science and Engineering (CSE)</td>                                        
+                                        <td> {Branch}</td>                                        
                                     </tr>
                                     <tr>
                                         <th className="row"> Course : </th>
-                                        <td> B.tech(4 year)</td>                                        
+                                        <td> {Course}</td>                                        
                                     </tr>
                                     <tr>
                                         <th className="row"> Section : </th>
-                                        <td> A4 </td>
+                                        <td> {Section} </td>
                                         
                                     </tr>
                                 </tbody>
