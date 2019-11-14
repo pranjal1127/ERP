@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import { withRouter } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 
 import '../style.css';
@@ -63,7 +64,7 @@ export class Header extends Component {
                                 <p>{Id}</p>
                             </div>
                         </div> 
-                        <button type="button" name="logout" onClick = {this.handle} className="btn btn-danger " id="lo"><a href="http://localhost:3000">Log Out</a></button>
+                        <button type="button" name="logout" onClick = {this.handle} className="btn btn-danger " id="lo"><Link to="/">Log Out</Link></button>        
                         <input name="" id="set" class="btn btn-primary" type="button" value="Settings"/>
                    </div>
                    ):null}

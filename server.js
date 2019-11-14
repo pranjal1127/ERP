@@ -282,7 +282,7 @@ app.post('/teacher/performance/update/:id', (req, res) => {
         })
         
     })
-}) 
+})   
 //---------------------------------------------------------------------------------------------------------------------
 app.post('/teacher/attendance/new/:id', (req, res) => {
     var Id  = req.params.id

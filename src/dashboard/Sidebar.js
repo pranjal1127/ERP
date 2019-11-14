@@ -39,10 +39,7 @@ import '../style.css';
                     <li><i className="fa fa-wallet" ></i> <NavLink style={{ color: 'white' }} to= {'/student/Fees'} >Fees</NavLink></li>
                 </ul>
 
-                <div className='about'>
-                <i className="fa fa-copyright"> By Pranjal & team</i><br />
-                version v1.0.0.1
-            </div>
+                
 
             </div>
             

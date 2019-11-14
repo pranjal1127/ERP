@@ -86,7 +86,7 @@ class Tperformance extends Component {
                 <Header />
                 <Tsidebar/>                
             <div className="profile row">
-                <table class="table table-bordered table-responsive">
+                <table class="rishu table table-bordered table-responsive">
                 
                     <thead class="thead-inverse">
                         <tr>

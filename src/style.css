@@ -83,12 +83,15 @@ body {
 }
 /* ---------------------------------Fees------------------------------------------ */
 .table{
-    width: fit-content;
+    width:80%;
     margin: 1%;
 }
 .table td,th{
     text-align: center;
-    width: fit-content;
+    
+}
+.rishu{
+    width:fit-content;
 }
 
 /* ................................Header......................................... */

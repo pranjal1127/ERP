@@ -40,10 +40,7 @@ import '../style.css';
                     
                 </ul>
 
-                <div className='about'>
-                <i className="fa fa-copyright"> By pranjal & team</i><br />
-                version v1.0.0.1
-            </div>
+                
 
             </div>
             
